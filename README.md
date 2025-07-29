@@ -1,5 +1,5 @@
 
-# 🧠 Rossmann Sales Forecasting
+#  Rossmann Sales Forecasting
 
 Este repositório contém um pipeline completo de Ciência de Dados, que resolve o problema de previsão de vendas diárias para lojas da rede Rossmann, com base no desafio do Kaggle ["Rossmann Store Sales"](https://www.kaggle.com/competitions/rossmann-store-sales).
 
@@ -7,7 +7,7 @@ A solução abrange desde o pré-processamento e modelagem até a disponibiliza�
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 📁 projeto_rossmann/
@@ -21,7 +21,7 @@ A solução abrange desde o pré-processamento e modelagem até a disponibiliza�
 
 ---
 
-## 🚀 Visão Geral
+##  Visão Geral
 
 A rede Rossmann possui mais de 3.000 lojas em 7 países europeus. Gerentes precisam prever vendas com semanas de antecedência, considerando:
 
@@ -35,7 +35,7 @@ Este projeto automatiza esse processo por meio de machine learning, permitindo p
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem**: Python 3.10+
 - **Bibliotecas**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, Pickle
@@ -44,7 +44,7 @@ Este projeto automatiza esse processo por meio de machine learning, permitindo p
 
 ---
 
-## 🧪 Etapas do Projeto
+## Etapas do Projeto
 
 1. **Análise Exploratória (EDA)**  
    Visualização e entendimento dos principais padrões de vendas.
@@ -73,7 +73,7 @@ Este projeto automatiza esse processo por meio de machine learning, permitindo p
 
 ---
 
-## ▶️ Como Executar Localmente
+## Como Executar Localmente
 
 1. Clone o repositório:
 
@@ -106,7 +106,7 @@ A API estará disponível em: `http://localhost:5000/rossman/predict`
 
 ---
 
-## 🔁 Exemplo de Requisição
+## Exemplo de Requisição
 
 ### Requisição `POST`
 
@@ -156,7 +156,7 @@ Content-Type: application/json
 
 ---
 
-## ☁️ Acesse o Deploy (Heroku)
+## Acesse o Deploy (Heroku)
 
 Você pode testar a API diretamente no ar pelo link:
 
@@ -164,6 +164,6 @@ Você pode testar a API diretamente no ar pelo link:
 
 ---
 
-## 🧾 Licença
+## Licença
 
 Este projeto é de uso educacional, sem fins comerciais.
