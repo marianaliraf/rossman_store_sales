@@ -3,6 +3,7 @@ import pandas as pd
 from rossman.Rossman import Rossman
 import os
 import pickle
+import traceback
 
 try:
     ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) #local
@@ -15,10 +16,6 @@ model = pickle.load(open(model_path, 'rb'))
 
 #initialize API
 app = Flask(__name__)
-
-from flask import Flask, request, Response
-import pandas as pd
-import traceback
 
 @app.route('/rossman/predict', methods=['POST'])
 def rossman_predict():

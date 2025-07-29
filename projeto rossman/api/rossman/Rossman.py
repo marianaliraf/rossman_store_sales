@@ -6,7 +6,6 @@ import pandas as pd
 import inflection
 import numpy as np
 import datetime
-import math
 
 try:
     #local path
@@ -194,11 +193,6 @@ class Rossman(object):
     return df5[cols_selected]
 
   def get_prediction(self, model, original_data, test_data):
-      print('-----------------------------------------------')
-      print(type(model))
-      print('versao np')
-      print(np.__version__)
-      print('-----------------------------------------------')
       pred = model.predict(test_data)
       
       #join pred into original data
